@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="appointment.html" class="active">Appointments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle">&#9776;</button>
+    </nav>
+  </header>
+
+  <section class="hero" style="background: linear-gradient(120deg, #6a11cb, #2575fc);">
+    <div class="container">
+      <h1>Book an Appointment</h1>
+      <p>Book an appointment with our expert doctors today.</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <form>
+      <h2>Appointment Form</h2>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <select required>
+        <option value="">Select Department</option>
+        <option>General Medicine</option>
+        <option>Cardiology</option>
+        <option>Pediatrics</option>
+        <option>Orthopedics</option>
+        <option>Radiology</option>
+      </select>
+      <input type="date" required />
+      <textarea placeholder="Reason for Visit (optional)"></textarea>
+      <input type="submit" value="Book Appointment" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hospital. All rights reserved.</p>
+  </footer>
+  
+  <!-- Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
